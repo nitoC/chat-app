@@ -1,0 +1,150 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+sup {
+  padding: 1.3em;
+  color red;
+}
+#chatDiv {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+#DispDiv {
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+#Loggedusers h6 {
+  padding-left: 3%;
+}
+#img {
+  height: 100vh;
+  width: 50vw;
+  background-image: url('https://ctl.s6img.com/society6/img/TcPuqSGTNPxRmkkTBswdl1ByyYQ/w_700/skins/iphone6plus/~artwork,fw_1300,fh_2000,fx_-350,iw_2000,ih_2000/s6-original-art-uploads/society6/uploads/misc/a4c56b6403b84709800d45bacc366e45/~~/simple-black-and-white-ink-drawing-of-woman-with-flowers-in-hair-phone-skins.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+#im {
+  height: 100%;
+  width: 100%;
+}
+
+#form,
+#Ldiv {
+  margin: auto;
+  width: 50vw;
+}
+#fom:active {
+  background-color: #eeaaae !important;
+}
+#imag {
+  cursor: pointer;
+}
+input[type='radio'] {
+  display: inline;
+  height: 0.9em;
+  width: 0.9em;
+  outline: none;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+form label,
+label {
+  width: 50vw;
+  display: block;
+}
+#cover {
+  background-image: linear-gradient(
+    135deg,
+    rgba(87, 86, 86, 0.781),
+    rgba(214, 57, 57, 0.856)
+  );
+  background-image: -webkit-linear-gradient(
+    135deg,
+    rgba(180, 193, 196, 0.603),
+    rgba(165, 165, 165, 0)
+  );
+
+  width: 100vw;
+  height: 100vh;
+}
+#pos {
+  position: absolute;
+  left: 49%;
+  top: 10%;
+  font-family: gigi;
+  font-size: 2em;
+  color: rgba(24, 35, 138, 0.295);
+}
+#pdiv {
+  overflow: hidden;
+  margin: auto;
+  width: 40vw;
+  height: 39vh;
+  border-radius: 50%;
+}
+#photo {
+  opacity: 0.1;
+  display: block;
+  width: 50vw;
+  height: 50vh;
+}
+#wrap {
+  background-image: linear-gradient(
+    -45deg,
+    rgba(212, 211, 211, 0.568),
+    rgba(190, 190, 190, 0)
+  );
+  background-image: -webkit-linear-gradient(
+    -45deg,
+    rgba(212, 211, 211, 0.568),
+    rgba(190, 190, 190, 0)
+  );
+  background-image: -o-linear-gradient(
+    -45deg,
+    rgba(212, 211, 211, 0.568),
+    rgba(190, 190, 190, 0)
+  );
+  width: 50vw;
+  height: 100vh;
+}
+.app {
+  display: flex;
+  overflow: hidden;
+}
+#logo {
+  font-family: Helvetica;
+  padding-left: 8px;
+}
+#Loggedusers {
+  overflow-x: scroll;
+}
+#space {
+  height: 20vh;
+}
+#menu div {
+  display: block;
+  text-align: center;
+  height: 10vh;
+  padding-top: 1.4em;
+}
+
+#menu div:hover {
+  display: block;
+  text-align: center;
+  height: 10vh;
+  border: 3px solid rgba(249, 250, 230, 0.5);
+}
+#Loggedusers h6 {
+  white-space: nowrap;
+  margin-bottom: 5px;
+  padding: 1.1em;
+
+  background-color: rgb(251, 255, 208);
+}
